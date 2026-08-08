@@ -1,182 +1,1217 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="G Saiteja — Data, Analytics, Machine Learning and IoT portfolio." />
-  <title>G Saiteja | Data • Code • Insights</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="G Saiteja - Data, Analytics, Machine Learning and IoT Portfolio">
+
+    <title>G Saiteja | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="noise"></div>
-  <div class="cursor-glow"></div>
 
-  <header class="nav">
-    <a class="brand" href="#home">GS<span>.</span></a>
-    <button class="menu-btn" aria-label="Toggle menu">☰</button>
-    <nav id="navLinks">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Journey</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a class="nav-cta" href="assets/resume.pdf" download>Resume ↗</a>
-  </header>
+    <!-- =========================================
+         BACKGROUND EFFECTS
+    ========================================== -->
 
-  <main id="home">
-    <section class="hero section">
-      <div class="hero-copy reveal">
-        <div class="eyebrow"><span class="pulse"></span> OPEN TO OPPORTUNITIES</div>
-        <p class="mono">HELLO, I'M</p>
-        <h1>G <span>Saiteja</span></h1>
-        <h2>Data • Code • <em>Insights</em></h2>
-        <p class="hero-text">I build data-driven solutions that connect analytics, automation, machine learning and real-world systems.</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#projects">Explore my work <span>↓</span></a>
-          <a class="btn ghost" href="#contact">Let's connect ↗</a>
-        </div>
-      </div>
+    <div class="page-glow glow-one"></div>
+    <div class="page-glow glow-two"></div>
 
-      <div class="hero-terminal reveal">
-        <div class="terminal-top"><span></span><span></span><span></span><label>saiteja@portfolio ~</label></div>
-        <div class="terminal-body">
-          <p><span class="green">➜</span> whoami</p>
-          <p class="output">Data / Analytics Enthusiast</p>
-          <p><span class="green">➜</span> stack --primary</p>
-          <p class="output">Python · SQL · Power BI · AWS</p>
-          <p><span class="green">➜</span> focus --current</p>
-          <p class="output">Data Engineering + ML</p>
-          <p><span class="green">➜</span> status</p>
-          <p class="status">● BUILDING</p>
-          <p><span class="green">➜</span> <span class="blink">_</span></p>
-        </div>
-      </div>
-      <div class="scroll-hint mono">SCROLL TO EXPLORE <span>↓</span></div>
-    </section>
+    <div class="grid-background"></div>
 
-    <section id="about" class="section">
-      <div class="section-label mono">01 / ABOUT</div>
-      <div class="about-grid">
-        <div>
-          <p class="kicker">TURNING DATA INTO DECISIONS.</p>
-          <h2 class="section-title">Curious about how things work.</h2>
-        </div>
-        <div class="about-copy">
-          <p>I enjoy working where data, technology and problem-solving meet. My interests span data engineering, analytics, machine learning, cloud technologies and IoT.</p>
-          <p>I like understanding a problem end-to-end — from collecting raw data and transforming it to building dashboards, models and interfaces that make the result useful.</p>
-          <div class="mini-stats">
-            <div><strong>01</strong><span>Data & Analytics</span></div>
-            <div><strong>02</strong><span>ML & Automation</span></div>
-            <div><strong>03</strong><span>IoT & Cloud</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section id="skills" class="section skills-section">
-      <div class="section-label mono">02 / TOOLKIT</div>
-      <div class="skills-head">
-        <h2 class="section-title">My toolbox.</h2>
-        <p>Technologies I use to turn ideas into working solutions.</p>
-      </div>
-      <div class="skill-cloud">
-        <span class="skill hot">Python</span><span class="skill">SQL</span><span class="skill hot">Power BI</span>
-        <span class="skill">AWS</span><span class="skill">PostgreSQL</span><span class="skill">Databricks</span>
-        <span class="skill">Kafka</span><span class="skill">Machine Learning</span><span class="skill">DAX</span>
-        <span class="skill">Git</span><span class="skill">IoT</span><span class="skill">JavaScript</span>
-        <span class="skill">REST APIs</span><span class="skill">ETL</span><span class="skill">Data Visualization</span>
-      </div>
-      <div class="skill-bars">
-        <div><span>Python</span><b>Advanced</b><i><u style="width:90%"></u></i></div>
-        <div><span>SQL & Data</span><b>Advanced</b><i><u style="width:88%"></u></i></div>
-        <div><span>Power BI</span><b>Advanced</b><i><u style="width:90%"></u></i></div>
-        <div><span>Cloud / AWS</span><b>Working</b><i><u style="width:75%"></u></i></div>
-      </div>
-    </section>
+    <!-- =========================================
+         NAVIGATION
+    ========================================== -->
 
-    <section id="projects" class="section">
-      <div class="section-label mono">03 / SELECTED WORK</div>
-      <div class="projects-head">
-        <h2 class="section-title">Things I've built.</h2>
-        <span class="mono">03 PROJECTS</span>
-      </div>
+    <header class="navbar">
 
-      <article class="project featured reveal">
-        <div class="project-number">01</div>
-        <div class="project-info">
-          <div class="tags"><span>IoT</span><span>Machine Learning</span><span>Mobile App</span></div>
-          <h3>Milk Adulteration Detection</h3>
-          <p>An IoT-based system for detecting milk adulteration using conductivity and pH measurements. Sensor readings are collected, processed for classification and surfaced through a mobile interface.</p>
-          <div class="flow"><span>Sensors</span><b>→</b><span>Controller</span><b>→</b><span>ML</span><b>→</b><span>Mobile App</span></div>
-          <a class="text-link" href="#contact">View project details ↗</a>
-        </div>
-        <div class="project-visual milk">
-          <div class="scanner"></div>
-          <div class="readout"><small>LIVE SAMPLE</small><strong>423.00</strong><span>CONDUCTIVITY μS/cm</span><div><b>pH 4.50</b><b>1.36 V</b></div></div>
-        </div>
-      </article>
+        <a href="#home" class="logo">
+            GS<span>.</span>
+        </a>
 
-      <article class="project reveal">
-        <div class="project-number">02</div>
-        <div class="project-info">
-          <div class="tags"><span>Power BI</span><span>DAX</span><span>Analytics</span></div>
-          <h3>Interactive Analytics Dashboard</h3>
-          <p>A business intelligence dashboard designed to turn operational data into interactive KPIs, trends, breakdowns and decision-ready insights.</p>
-          <a class="text-link" href="#contact">Add live dashboard ↗</a>
-        </div>
-        <div class="project-visual dashboard">
-          <div class="chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-          <div class="cards"><b>92.4%</b><b>1,284</b><b>+18.6%</b></div>
-        </div>
-      </article>
+        <button class="menu-toggle" aria-label="Open navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
 
-      <article class="project reveal">
-        <div class="project-number">03</div>
-        <div class="project-info">
-          <div class="tags"><span>Python</span><span>Automation</span><span>Data</span></div>
-          <h3>Job Search Automation</h3>
-          <p>A concept for automating job discovery, filtering opportunities against relevant skills and presenting useful matches in a streamlined workflow.</p>
-          <a class="text-link" href="#contact">View on GitHub ↗</a>
-        </div>
-        <div class="project-visual pipeline">
-          <span>SEARCH</span><b>→</b><span>FILTER</span><b>→</b><span>MATCH</span><b>→</b><span>ALERT</span>
-        </div>
-      </article>
-    </section>
+        <nav class="nav-links">
 
-    <section id="experience" class="section journey">
-      <div class="section-label mono">04 / JOURNEY</div>
-      <h2 class="section-title">Learning by building.</h2>
-      <div class="timeline">
-        <div class="timeline-item"><span>NOW</span><div><h3>Data / Analytics Focus</h3><p>Building practical experience across data engineering, Power BI, cloud and automation.</p></div></div>
-        <div class="timeline-item"><span>PROJECT</span><div><h3>IoT + ML Research</h3><p>Built a multidisciplinary final-year project combining sensors, data processing, classification and a mobile interface.</p></div></div>
-        <div class="timeline-item"><span>FOUNDATION</span><div><h3>Python • SQL • BI</h3><p>Developed a foundation in programming, databases, data visualization and analytical problem solving.</p></div></div>
-      </div>
-    </section>
+            <a href="#about">About</a>
 
-    <section id="contact" class="section contact">
-      <div class="contact-box reveal">
-        <div class="section-label mono">05 / CONTACT</div>
-        <h2>Let's build something<br><span>useful.</span></h2>
-        <p>Have a project, opportunity or idea? I'd love to hear about it.</p>
-        <a class="email" href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com ↗</a>
-        <div class="socials">
-          <a href="https://github.com/YOUR_USERNAME" target="_blank">GitHub ↗</a>
-          <a href="https://www.linkedin.com/in/YOUR_USERNAME/" target="_blank">LinkedIn ↗</a>
-        </div>
-      </div>
-    </section>
-  </main>
+            <a href="#skills">Skills</a>
 
-  <footer>
-    <span>© 2026 G Saiteja</span>
-    <span class="mono">BUILT WITH HTML · CSS · JS</span>
-    <a href="#home">BACK TO TOP ↑</a>
-  </footer>
-  <script src="script.js"></script>
+            <a href="#projects">Projects</a>
+
+            <a href="#journey">Journey</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <a href="assets/resume.pdf"
+           class="nav-resume"
+           download>
+
+            Resume <span>↗</span>
+
+        </a>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- =========================================
+             HERO SECTION
+        ========================================== -->
+
+        <section id="home" class="hero container">
+
+            <!-- HERO TEXT -->
+
+            <div class="hero-content reveal">
+
+                <div class="availability">
+
+                    <span class="status-dot"></span>
+
+                    OPEN TO OPPORTUNITIES
+
+                </div>
+
+
+                <p class="hero-small">
+                    HELLO, I'M
+                </p>
+
+
+                <h1>
+                    G <span>Saiteja</span>
+                </h1>
+
+
+                <h2>
+                    Data
+                    <i>•</i>
+                    Analytics
+                    <i>•</i>
+                    Engineering
+                </h2>
+
+
+                <p class="hero-description">
+
+                    I build data-driven solutions using Python,
+                    SQL, Power BI, cloud technologies and machine
+                    learning — turning complex data into useful insights.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#projects"
+                       class="button button-primary">
+
+                        Explore my work
+
+                        <span>↓</span>
+
+                    </a>
+
+
+                    <a href="#contact"
+                       class="button button-secondary">
+
+                        Let's connect
+
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+
+                <div class="hero-socials">
+
+                    <a href="https://github.com/saiteja4884"
+                       target="_blank">
+
+                        GitHub ↗
+
+                    </a>
+
+
+                    <a href="https://www.linkedin.com/in/g-saiteja-385b51218"
+                       target="_blank">
+
+                        LinkedIn ↗
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- HERO PROFILE -->
+
+            <div class="hero-visual reveal">
+
+                <div class="profile-card">
+
+
+                    <div class="profile-orbit orbit-one"></div>
+
+                    <div class="profile-orbit orbit-two"></div>
+
+
+                    <div class="profile-image-wrap">
+
+                        <!--
+                            IMPORTANT:
+                            Put your photo here:
+
+                            assets/profile.jpg
+                        -->
+
+                        <img src="assets/profile.jpg"
+                             alt="G Saiteja profile photo"
+                             onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder')">
+
+
+                        <!-- Fallback if image isn't available -->
+
+                        <div class="photo-fallback">
+
+                            <span>GS</span>
+
+                            <small>
+                                YOUR PHOTO
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Floating card -->
+
+                    <div class="floating-card card-top">
+
+                        <span class="card-icon">
+                            ✦
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                DATA
+                            </strong>
+
+                            <small>
+                                Driven
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Floating card -->
+
+                    <div class="floating-card card-bottom">
+
+                        <span class="live-dot"></span>
+
+                        <div>
+
+                            <strong>
+                                BUILDING
+                            </strong>
+
+                            <small>
+                                Useful solutions
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="profile-label">
+
+                        <span>
+                            G SAITEJA
+                        </span>
+
+                        <small>
+                            DATA • CODE • INSIGHTS
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-scroll">
+
+                SCROLL TO EXPLORE
+
+                <span>↓</span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             ABOUT SECTION
+        ========================================== -->
+
+        <section id="about"
+                 class="section container">
+
+            <div class="section-number">
+                01 / ABOUT
+            </div>
+
+
+            <div class="two-column">
+
+
+                <div>
+
+                    <p class="eyebrow">
+                        CURIOUS ABOUT HOW THINGS WORK.
+                    </p>
+
+
+                    <h2 class="section-title">
+
+                        I like building things
+                        that make data useful.
+
+                    </h2>
+
+                </div>
+
+
+
+                <div class="about-text">
+
+                    <p>
+
+                        I'm a technology and data enthusiast
+                        interested in data engineering, analytics,
+                        machine learning, cloud technologies and IoT.
+
+                    </p>
+
+
+                    <p>
+
+                        I enjoy solving problems end-to-end —
+                        from collecting and transforming data to
+                        creating dashboards, automated workflows
+                        and intelligent applications.
+
+                    </p>
+
+
+                    <div class="stat-row">
+
+
+                        <div>
+
+                            <strong>
+                                01
+                            </strong>
+
+                            <span>
+                                Data & Analytics
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                02
+                            </strong>
+
+                            <span>
+                                ML & Automation
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                03
+                            </strong>
+
+                            <span>
+                                IoT & Cloud
+                            </span>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             SKILLS SECTION
+        ========================================== -->
+
+        <section id="skills"
+                 class="section container">
+
+            <div class="section-number">
+                02 / TOOLKIT
+            </div>
+
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">
+                        TECHNOLOGIES
+                    </p>
+
+                    <h2 class="section-title">
+                        My toolbox.
+                    </h2>
+
+                </div>
+
+
+                <p>
+
+                    Tools and technologies I use to turn
+                    ideas into practical solutions.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="skill-grid">
+
+
+                <!-- PYTHON -->
+
+                <div class="skill-card featured-skill">
+
+                    <div class="skill-top">
+
+                        <span>01</span>
+
+                        <span>CORE</span>
+
+                    </div>
+
+
+                    <h3>
+                        Python
+                    </h3>
+
+
+                    <p>
+
+                        Automation, data processing,
+                        scripting and machine learning workflows.
+
+                    </p>
+
+
+                    <div class="skill-line">
+
+                        <span style="width:90%"></span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- SQL -->
+
+                <div class="skill-card">
+
+                    <div class="skill-top">
+
+                        <span>02</span>
+
+                        <span>DATA</span>
+
+                    </div>
+
+
+                    <h3>
+                        SQL
+                    </h3>
+
+
+                    <p>
+
+                        Queries, transformations, joins,
+                        aggregations and database workflows.
+
+                    </p>
+
+
+                    <div class="skill-line">
+
+                        <span style="width:88%"></span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- POWER BI -->
+
+                <div class="skill-card">
+
+                    <div class="skill-top">
+
+                        <span>03</span>
+
+                        <span>BI</span>
+
+                    </div>
+
+
+                    <h3>
+                        Power BI
+                    </h3>
+
+
+                    <p>
+
+                        Dashboards, DAX, KPIs,
+                        interactive reporting and data storytelling.
+
+                    </p>
+
+
+                    <div class="skill-line">
+
+                        <span style="width:90%"></span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- AWS -->
+
+                <div class="skill-card">
+
+                    <div class="skill-top">
+
+                        <span>04</span>
+
+                        <span>CLOUD</span>
+
+                    </div>
+
+
+                    <h3>
+                        AWS
+                    </h3>
+
+
+                    <p>
+
+                        Cloud services, automation and
+                        data-oriented application workflows.
+
+                    </p>
+
+
+                    <div class="skill-line">
+
+                        <span style="width:75%"></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- OTHER TECHNOLOGIES -->
+
+            <div class="tech-pills">
+
+                <span>PostgreSQL</span>
+
+                <span>Databricks</span>
+
+                <span>Kafka</span>
+
+                <span>Machine Learning</span>
+
+                <span>DAX</span>
+
+                <span>Git</span>
+
+                <span>IoT</span>
+
+                <span>ETL</span>
+
+                <span>Data Visualization</span>
+
+                <span>REST APIs</span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             PROJECTS SECTION
+        ========================================== -->
+
+        <section id="projects"
+                 class="section container">
+
+            <div class="section-number">
+                03 / SELECTED WORK
+            </div>
+
+
+            <div class="section-heading project-heading">
+
+                <div>
+
+                    <p class="eyebrow">
+                        WHAT I'VE BUILT
+                    </p>
+
+                    <h2 class="section-title">
+                        Projects that solve problems.
+                    </h2>
+
+                </div>
+
+
+                <span class="project-count">
+                    03 PROJECTS
+                </span>
+
+            </div>
+
+
+
+            <!-- PROJECT 1 -->
+
+            <article class="project-card reveal">
+
+
+                <div class="project-meta">
+
+                    <span>
+                        01
+                    </span>
+
+
+                    <div class="project-tags">
+
+                        <b>IoT</b>
+
+                        <b>ML</b>
+
+                        <b>MOBILE</b>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="project-content">
+
+                    <h3>
+                        Milk Adulteration Detection
+                    </h3>
+
+
+                    <p>
+
+                        Developed an IoT-based system for detecting
+                        milk adulteration using conductivity and pH
+                        measurements, machine learning classification
+                        and a mobile application interface.
+
+                    </p>
+
+
+                    <div class="project-flow">
+
+                        <span>SENSORS</span>
+
+                        <i>→</i>
+
+                        <span>DATA</span>
+
+                        <i>→</i>
+
+                        <span>ML</span>
+
+                        <i>→</i>
+
+                        <span>APP</span>
+
+                    </div>
+
+
+                    <a href="#"
+                       class="project-link">
+
+                        View project
+
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+
+
+                <div class="project-media">
+
+                    <img src="assets/milk-project.jpg"
+                         alt="Milk adulteration project"
+                         onerror="this.style.display='none'; this.parentElement.classList.add('media-placeholder')">
+
+
+                    <div class="media-fallback">
+
+                        <div class="sensor-circle"></div>
+
+                        <strong>
+                            423.00
+                        </strong>
+
+                        <small>
+                            CONDUCTIVITY μS/cm
+                        </small>
+
+                        <div>
+
+                            <span>
+                                pH 4.50
+                            </span>
+
+                            <span>
+                                1.36 V
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PROJECT 2 -->
+
+            <article class="project-card reveal">
+
+
+                <div class="project-meta">
+
+                    <span>
+                        02
+                    </span>
+
+
+                    <div class="project-tags">
+
+                        <b>POWER BI</b>
+
+                        <b>DAX</b>
+
+                        <b>ANALYTICS</b>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="project-content">
+
+                    <h3>
+                        Interactive Analytics Dashboard
+                    </h3>
+
+
+                    <p>
+
+                        Built an interactive Power BI dashboard
+                        for monitoring KPIs, operational trends,
+                        performance metrics and decision-ready
+                        insights through dynamic filters.
+
+                    </p>
+
+
+                    <div class="project-flow">
+
+                        <span>DATA</span>
+
+                        <i>→</i>
+
+                        <span>MODEL</span>
+
+                        <i>→</i>
+
+                        <span>DAX</span>
+
+                        <i>→</i>
+
+                        <span>INSIGHTS</span>
+
+                    </div>
+
+
+                    <a href="#"
+                       class="project-link">
+
+                        View dashboard
+
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+
+
+                <div class="project-media">
+
+                    <img src="assets/powerbi-dashboard.png"
+                         alt="Power BI dashboard"
+                         onerror="this.style.display='none'; this.parentElement.classList.add('media-placeholder')">
+
+
+                    <div class="media-fallback dashboard-fallback">
+
+                        <div class="dashboard-bars">
+
+                            <i style="height:35%"></i>
+
+                            <i style="height:55%"></i>
+
+                            <i style="height:42%"></i>
+
+                            <i style="height:78%"></i>
+
+                            <i style="height:60%"></i>
+
+                            <i style="height:92%"></i>
+
+                            <i style="height:72%"></i>
+
+                        </div>
+
+
+                        <div class="dashboard-metrics">
+
+                            <b>92.4%</b>
+
+                            <b>1,284</b>
+
+                            <b>+18.6%</b>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PROJECT 3 -->
+
+            <article class="project-card reveal">
+
+
+                <div class="project-meta">
+
+                    <span>
+                        03
+                    </span>
+
+
+                    <div class="project-tags">
+
+                        <b>PYTHON</b>
+
+                        <b>AUTOMATION</b>
+
+                        <b>DATA</b>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="project-content">
+
+                    <h3>
+                        Job Search Automation
+                    </h3>
+
+
+                    <p>
+
+                        A Python-based workflow for discovering
+                        relevant job opportunities, filtering them
+                        against skills and requirements, and sending
+                        useful job recommendations through email.
+
+                    </p>
+
+
+                    <div class="project-flow">
+
+                        <span>SEARCH</span>
+
+                        <i>→</i>
+
+                        <span>FILTER</span>
+
+                        <i>→</i>
+
+                        <span>MATCH</span>
+
+                        <i>→</i>
+
+                        <span>ALERT</span>
+
+                    </div>
+
+
+                    <a href="#"
+                       class="project-link">
+
+                        View project
+
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+
+
+                <div class="project-media pipeline-media">
+
+                    <div class="pipeline-node">
+                        SEARCH
+                    </div>
+
+                    <span>→</span>
+
+                    <div class="pipeline-node">
+                        FILTER
+                    </div>
+
+                    <span>→</span>
+
+                    <div class="pipeline-node">
+                        MATCH
+                    </div>
+
+                    <span>→</span>
+
+                    <div class="pipeline-node">
+                        EMAIL
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+
+        <!-- =========================================
+             JOURNEY
+        ========================================== -->
+
+        <section id="journey"
+                 class="section container">
+
+            <div class="section-number">
+                04 / JOURNEY
+            </div>
+
+
+            <div class="two-column journey-layout">
+
+
+                <div>
+
+                    <p class="eyebrow">
+                        LEARNING BY BUILDING
+                    </p>
+
+
+                    <h2 class="section-title">
+
+                        Every project adds
+                        another layer.
+
+                    </h2>
+
+                </div>
+
+
+
+                <div class="timeline">
+
+
+                    <div class="timeline-item">
+
+                        <span>
+                            NOW
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Data & Analytics Focus
+                            </h3>
+
+                            <p>
+
+                                Developing practical experience
+                                across Python, SQL, Power BI,
+                                cloud and data engineering.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="timeline-item">
+
+                        <span>
+                            PROJECT
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                IoT + Machine Learning
+                            </h3>
+
+                            <p>
+
+                                Built a multidisciplinary project
+                                combining sensors, data processing,
+                                classification and a mobile interface.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="timeline-item">
+
+                        <span>
+                            FOUNDATION
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Python • SQL • BI
+                            </h3>
+
+                            <p>
+
+                                Built a foundation in programming,
+                                databases, analytics and
+                                data visualization.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             CONTACT
+        ========================================== -->
+
+        <section id="contact"
+                 class="section container">
+
+
+            <div class="contact-card reveal">
+
+
+                <p class="eyebrow">
+                    05 / CONTACT
+                </p>
+
+
+                <h2>
+
+                    Let's build something
+                    <span>useful.</span>
+
+                </h2>
+
+
+                <p>
+
+                    I'm open to opportunities, interesting
+                    projects and conversations around data,
+                    analytics and technology.
+
+                </p>
+
+
+                <!-- CHANGE YOUR EMAIL HERE -->
+
+                <a href="mailto:goudampallysaiteja2000@gmail.com"
+                   class="contact-email">
+                    goudampallysaiteja2000@gmail.com
+                </a>
+
+
+                <div class="contact-links">
+
+                    <a href="https://github.com/saiteja4884"
+                       target="_blank">
+
+                        GitHub ↗
+
+                    </a>
+
+
+                    <a href="https://www.linkedin.com/in/g-saiteja-385b51218"
+                       target="_blank">
+
+                        LinkedIn ↗
+
+                    </a>
+
+
+                    <a href="assets/resume.pdf"
+                       download>
+
+                        Resume ↓
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="footer container">
+
+        <span>
+            © 2026 G Saiteja
+        </span>
+
+
+        <span>
+            DATA • CODE • INSIGHTS
+        </span>
+
+
+        <a href="#home">
+            BACK TO TOP ↑
+        </a>
+
+    </footer>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
 </body>
 </html>
+```
